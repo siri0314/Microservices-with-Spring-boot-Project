@@ -8,4 +8,5 @@ spring:
     config:
       server:
         git:
-          url:
+          uri: https://github.com/siri0314/Spring-app-config
+          clone-on-start: true
