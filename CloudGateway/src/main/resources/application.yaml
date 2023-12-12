@@ -12,12 +12,12 @@ spring:
           - id : ORDER-SERVICE
             uri: lb://ORDER-SERVICE
             predicates:
-              - Path=/order/**
+              - Path= /order/**
           - id: PAYMENT-SERVICE
             uri: lb://PAYMENT-SERVICE
             predicates:
-              - Path=/payment/**
+              - Path= /payment/**
           - id: PRODUCT-SERVICE
             uri: lb://PRODUCT-SERVICE
             predicates:
-              - Path=/product/**
+              - Path= /product/**
